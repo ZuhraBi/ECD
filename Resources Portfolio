@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZuhraBi's ECD Portfolio</title>
+    
+<script src="https://cdn.tailwindcss.com"></script>
+    
+<script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary-blue': '#4A90E2', // A nice, calm blue
+                        'secondary-green': '#50E3C2', // A fresh green
+                        'text-dark': '#333333',
+                        'text-light': '#F8F8F8',
+                        'bg-light': '#FFFFFF',
+                        'bg-dark': '#F0F2F5', // Light gray background
+                        'accent-yellow': '#F8E71C', // A bright accent
+                    }
+                }
+            }
+        }
+    </script>
+    
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: theme('colors.bg-dark');
+            color: theme('colors.text-dark');
+            line-height: 1.6;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    
+<header class="bg-primary-blue text-text-light py-6 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center px-6">
+            <h1 class="text-3xl font-bold">ZuhraBi's <span class="text-secondary-green">ECD Portfolio</span></h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#courses" class="hover:text-accent-yellow transition duration-300">Courses</a></li>
+                    <li><a href="#resources" class="hover:text-accent-yellow transition duration-300">Resources</a></li>
+                    <li><a href="#documents" class="hover:text-accent-yellow transition duration-300">Documents</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    
+<section class="bg-gradient-to-r from-primary-blue to-secondary-green text-text-light py-20 text-center shadow-inner">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl md:text-5xl font-extrabold mb-4">All Information for Early Childhood Learners</h2>
+            <p class="text-xl max-w-2xl mx-auto opacity-90">
+                A collection of specialized training, resources, and documents focused on foundational development.
+            </p>
+            <div class="mt-8">
+                <a href="#courses" class="bg-accent-yellow text-text-dark font-bold py-3 px-8 rounded-full shadow-lg hover:bg-yellow-300 transition duration-300 transform hover:scale-105">
+                    View Credentials
+                </a>
+            </div>
+        </div>
+    </section>
+
+    
+<main class="container mx-auto py-12 px-6">
+
+        
+<section id="courses" class="bg-bg-light p-8 rounded-lg shadow-md mb-12">
+            <h2 class="text-3xl font-bold text-primary-blue mb-6 border-b-2 border-secondary-green pb-2">Completed Courses & Certifications</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                
+<div class="bg-bg-dark p-6 rounded-lg shadow-sm hover:shadow-lg transition duration-300">
+                    <h3 class="text-xl font-semibold text-text-dark mb-2">CDC: Watch Me! Training</h3>
+                    <p class="text-gray-700 text-sm mb-3">Focuses on developmental monitoring and communication with families.</p>
+                    <span class="inline-block bg-secondary-green text-text-light text-xs font-semibold px-3 py-1 rounded-full mb-3">Certificate Achieved</span>
+                    <a href="LINK_TO_YOUR_CDC_CERTIFICATE_OR_SUMMARY" target="_blank" class="block text-primary-blue hover:underline font-medium">View Certificate/Details &rarr;</a>
+                </div>
+
+                
+<div class="bg-bg-dark p-6 rounded-lg shadow-sm hover:shadow-lg transition duration-300">
+                    <h3 class="text-xl font-semibold text-text-dark mb-2">UK DfE: Early Years Child Development</h3>
+                    <p class="text-gray-700 text-sm mb-3">Comprehensive training in key child development theories.</p>
+                    <span class="inline-block bg-secondary-green text-text-light text-xs font-semibold px-3 py-1 rounded-full mb-3">Certificate Achieved</span>
+                    <a href="LINK_TO_YOUR_UK_DFE_CERTIFICATE_OR_SUMMARY" target="_blank" class="block text-primary-blue hover:underline font-medium">View Certificate/Details &rarr;</a>
+                </div>
+
+                
+<div class="bg-bg-dark p-6 rounded-lg shadow-sm hover:shadow-lg transition duration-300">
+                    <h3 class="text-xl font-semibold text-text-dark mb-2">Pediatric First Aid</h3>
+                    <p class="text-gray-700 text-sm mb-3">Essential skills for emergency response in childcare settings.</p>
+                    <span class="inline-block bg-secondary-green text-text-light text-xs font-semibold px-3 py-1 rounded-full mb-3">Certificate Achieved</span>
+                    <a href="LINK_TO_YOUR_FIRST_AID_CERTIFICATE_OR_SUMMARY" target="_blank" class="block text-primary-blue hover:underline font-medium">View Certificate/Details &rarr;</a>
+                </div>
+
+                
+</div>
+        </section>
+
+        
+<section id="resources" class="bg-bg-light p-8 rounded-lg shadow-md mb-12">
+            <h2 class="text-3xl font-bold text-primary-blue mb-6 border-b-2 border-secondary-green pb-2">Valuable ECD Resources & Tools</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+                
+<div class="bg-bg-dark p-6 rounded-lg shadow-sm hover:shadow-lg transition duration-300">
+                    <h3 class="text-xl font-semibold text-text-dark mb-2">Guide to Developmental Milestones</h3>
+                    <p class="text-gray-700 text-sm mb-3">A curated list of reliable guides for tracking child development.</p>
+                    <a href="#" target="_blank" class="block text-primary-blue hover:underline font-medium">Explore Resource &rarr;</a>
+                </div>
+
+                
+<div class="bg-bg-dark p-6 rounded-lg shadow-sm hover:shadow-lg transition duration-300">
+                    <h3 class="text-xl font-semibold text-text-dark mb-2">Interactive Learning Apps for Toddlers</h3>
+                    <p class="text-gray-700 text-sm mb-3">Reviews and recommendations for beneficial educational apps.</p>
+                    <a href="#" target="_blank" class="block text-primary-blue hover:underline font-medium">Discover Apps &rarr;</a>
+                </div>
+
+                
+</div>
+        </section>
+
+        
+<section id="documents" class="bg-bg-light p-8 rounded-lg shadow-md mb-12">
+            <h2 class="text-3xl font-bold text-primary-blue mb-6 border-b-2 border-secondary-green pb-2">Key Documents & Project Work</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                
+<div class="bg-bg-dark p-6 rounded-lg shadow-sm hover:shadow-lg transition duration-300">
+                    <h3 class="text-xl font-semibold text-text-dark mb-2">Sample Lesson Plan: Creative Play</h3>
+                    <p class="text-gray-700 text-sm mb-3">A detailed plan for fostering creativity in preschoolers.</p>
+                    <a href="LINK_TO_YOUR_LESSON_PLAN_PDF" target="_blank" class="block text-primary-blue hover:underline font-medium">View Document (PDF) &rarr;</a>
+                </div>
+
+                
+<div class="bg-bg-dark p-6 rounded-lg shadow-sm hover:shadow-lg transition duration-300">
+                    <h3 class="text-xl font-semibold text-text-dark mb-2">Research Summary: Early Literacy</h3>
+                    <p class="text-gray-700 text-sm mb-3">Summary of key findings on promoting early literacy skills.</p>
+                    <a href="LINK_TO_YOUR_RESEARCH_SUMMARY_PDF" target="_blank" class="block text-primary-blue hover:underline font-medium">View Document (PDF) &rarr;</a>
+                </div>
+
+                
+<div class="bg-bg-dark p-6 rounded-lg shadow-sm hover:shadow-lg transition duration-300">
+                    <h3 class="text-xl font-semibold text-text-dark mb-2">Reflective Journal Excerpts</h3>
+                    <p class="text-gray-700 text-sm mb-3">Insights from practical experience in an ECD setting.</p>
+                    <a href="LINK_TO_YOUR_JOURNAL_EXCERPTS_PDF" target="_blank" class="block text-primary-blue hover:underline font-medium">View Document (PDF) &rarr;</a>
+                </div>
+
+                
+</div>
+        </section>
+
+    </main>
+
+    
+<footer class="bg-primary-blue text-text-light py-8 text-center mt-12">
+        <div class="container mx-auto px-6">
+            <p>&copy; 2023 ZuhraBi's ECD Portfolio. All rights reserved.</p>
+            <p class="text-sm mt-2">Connect with me on <a href="YOUR_LINKEDIN_PROFILE" target="_blank" class="underline hover:text-accent-yellow">LinkedIn</a> | <a href="YOUR_GITHUB_PROFILE" target="_blank" class="underline hover:text-accent-yellow">GitHub</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>
